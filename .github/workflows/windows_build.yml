@@ -1,5 +1,6 @@
 name: windows-build
 on:
+  workflow_dispatch:
   push:
     branches:
       - 'npcbots_3.3.5'
